@@ -5,28 +5,63 @@ body{
      background-position: top center;
      padding: 10px;
      font-size: 30px;
-     font-size: 16px;
+     font-size: 20px;
   font-family: "Roboto", Arial, sans-serif;
-  line-height: 24px;
+  line-height: 35px;
   color: black;
   margin: 0;
   padding: 0;
   font-weight: normal;
   font-style: normal;
+  background: -webkit-linear-gradient(
+    90deg,
+     #ffffff,
+     #ff1a1a,
+     #7e0000);                         
+     background: linear-gradient(
+       90deg,
+        #ffffff,
+        #ff1a1a,
+        #7e0000);                                              
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 );
     }
 .nigga{
      margin: 50px;
-     color:rgb(99, 99, 99)
+     color:black;
     }
 .container{
      margin-inline: 50px;    
 }
 .nav-item{
      margin-right: 50px;
+     color: black;
 }
 .top-link{
      color: black;
 }
 .navigation{
-     
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 500px;
+  margin-top: 32px;
+}
+.hot{
+     text-align: center!important;
+}
+.lok{
+     text-align: center!important;
+}
+.pot{
+     background-color: black;
+     height: 130px;
+}
+.pot-link {
+     margin: 15px;
+     color: white;
+     margin-right: 50px;
+     margin-left: 400px;
 }
